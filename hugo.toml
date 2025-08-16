@@ -1,0 +1,39 @@
+baseURL = 'https://simple-blog.git-compendium.info/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "beautifulhugo"
+
+[Params]
+  subtitle = "Travelnotes"
+  mainSections = ["posts"]
+  logo = "img/avatar-icon.png" # Expecting square dimensions
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+
+[Author]
+  name = "Bernd"
+  github = "flippii"
+
+[[menu.main]]
+  name = "Blog"
+  url = ""
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "pages/about/"
+  weight = 2   
+
+[[menu.main]]
+  name = "Tags"
+  url = "tags"
+  weight = 3   
