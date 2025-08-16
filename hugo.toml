@@ -1,4 +1,4 @@
-baseURL = 'https://simple-blog.git-compendium.info/'
+baseURL = 'https://flippii.github.io/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "beautifulhugo"
