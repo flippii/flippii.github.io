@@ -36,7 +36,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-github-pages@v3.1.12
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GH_PAGES_TOKEN }}
           publish_dir: ./public
           allow_empty_commit: true
       
